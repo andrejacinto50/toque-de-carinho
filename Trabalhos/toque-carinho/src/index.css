@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Você pode adicionar estilos personalizados aqui */
+body {
+  @apply bg-pink-100 font-sans;
+}
+
+.categoria-detalhes {
+  padding: 2rem;
+  text-align: center;
+}
+
+.produtos-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.produto {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 1rem;
+  width: 200px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.produto img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
